@@ -1,0 +1,9 @@
+max-history=5
+#theming
+background-color=#1d1f21
+border-radius=10
+border-color=#595959
+progress-color=#1affff
+max-visible=2
+
+default-timeout=3000

@@ -1,0 +1,5 @@
+@theme "~/.config/rofi/dense-black.rasi"
+configuration {
+	show-icons: true;
+	icon-theme: "Papirus";
+}

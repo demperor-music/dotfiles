@@ -1,0 +1,40 @@
+{
+    "layer": "top",
+    "position": "top",
+    "modules-left": ["network","tray"],
+    "modules-center":["clock"],
+    "modules-right": ["pulseaudio"],
+    "clock": {
+        "format": "   {:%H:%M}   ",
+        "tooltip-format": "   {:%a %b %d}   ",
+        "tooltip": true
+    },
+    "network": {
+        "format": "{ifname}",
+        "format-wifi": " {essid}",
+        "format-ethernet": " {ifname}",
+        "format-disconnected": "",
+        "tooltip-format-wifi": "{signalStrength}%",
+        "max-length": 20
+    },
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-bluetooth": "{icon} {volume}%",
+        "format-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", ""]
+        },
+        "scroll-step": 1,
+        "on-click": "pavucontrol"
+    },
+    "tray": {
+    	"icon-size": 12,
+	"spacing":5
+    },
+}

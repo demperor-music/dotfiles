@@ -5,11 +5,11 @@ if len(sys.argv) > 2:
     now = datetime.datetime.now().strftime(timeformat)
 
     if len(sys.argv) > 3:
-        filename = sys.argv[4].replace(r"%t", now).replace("\n",'')
+        filename = sys.argv[3].replace(r"%t", now).replace("\n",'')
     else:
         filename = f"Screenshot from {now}.png"
     if len(sys.argv) > 4:
-        notifTitle = sys.argv[5].replace("\n",'')
+        notifTitle = sys.argv[4].replace("\n",'')
     else:
         notifTitle = "Screenshot taken!"
     
@@ -24,7 +24,7 @@ if len(sys.argv) > 2:
     child = subprocess.Popen(["grimshot","save", sys.argv[1], file], stdout=subprocess.PIPE,stderr=subprocess.STDOUT)
 
     if '/' in child.stdout.read().decode():
-        os.system(f"wl-copy < \"{filename}\"")
+        os.system(f"wl-copy < \"{file}\"")
         os.system(f"notify-send '{notifTitle}' '{filename}' -i '{file}'")
     else:
         print("Operation cancelled.")

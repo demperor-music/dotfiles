@@ -22,4 +22,4 @@ else:
 
     print("Pass output into whatever wallpaper provider you have")
 
-    print(f"Usage: python3 {sys.argv[0]} (prev/next) (folder)\n")
+    print(f"Usage: python3 {sys.argv[0]} (prev/next/set) (folder)\n")

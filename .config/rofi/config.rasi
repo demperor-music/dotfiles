@@ -1,4 +1,4 @@
-@theme "~/.config/rofi/dense-black.rasi"
+@theme "~/.config/rofi/horizon.rasi"
 configuration {
 	show-icons: true;
 	icon-theme: "Papirus";

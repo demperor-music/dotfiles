@@ -2,10 +2,7 @@
 Feel free to add suggestions in Issues/Pull requests! <br>
 If you notice any config being partially stolen, please say so in the issues so i can give credit!
 
-
-
-https://user-images.githubusercontent.com/30912893/200398465-0614712f-0706-47ec-8797-69b3cfeec729.mp4
-
+![Screenshot](https://user-images.githubusercontent.com/30912893/200399806-a26ad450-fdf7-46fa-ae5d-00a01726d251.png)
 
 
 [`nvim` config](https://github.com/demperor-music/nvim-config)

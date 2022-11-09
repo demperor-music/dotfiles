@@ -6,3 +6,21 @@ If you notice any config being partially stolen, please say so in the issues so 
 
 
 [`nvim` config](https://github.com/demperor-music/nvim-config)
+
+**EDIT THE HYPRLAND CONFIG TO SET UP YOUR KEYBOARD LAYOUTS, WALLPAPER AND SCREENSHOT FOLDERS**
+
+## Dependencies
+- swww
+- python3
+- rofi
+- neofetch
+- mako
+- Hyprland
+- fish
+- starship
+- cava
+- alacritty
+- rofi-power-menu
+- playerctl
+- swaylock
+- neovim

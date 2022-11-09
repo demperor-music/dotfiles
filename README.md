@@ -16,6 +16,7 @@ If you notice any config being partially stolen, please say so in the issues so 
 - neofetch
 - mako
 - Hyprland
+- waybar-git
 - fish
 - starship
 - cava

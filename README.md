@@ -24,4 +24,3 @@ If you notice any config being partially stolen, please say so in the issues so 
 - rofi-power-menu
 - playerctl
 - swaylock
-- neovim

@@ -4,7 +4,7 @@ clock
 screenshots
 hide-keyboard-layout
 indicator
-timestr=%H:%m
+timestr=%H:%M
 datestr=%x
 daemonize
 

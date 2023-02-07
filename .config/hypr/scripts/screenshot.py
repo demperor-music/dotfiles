@@ -22,7 +22,7 @@ if len(sys.argv) > 2:
     file = f"{directory}/{filename}"
 
     child = subprocess.Popen(["grimshot","save", sys.argv[1], file], stdout=subprocess.PIPE,stderr=subprocess.STDOUT)
-
+    
     if '/' in child.stdout.read().decode():
         os.system(f"wl-copy < \"{file}\"")
         os.system(f"notify-send '{notifTitle}' '{filename}' -i '{file}'")

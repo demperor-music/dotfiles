@@ -21,6 +21,7 @@ If you notice any config being partially stolen, please say so in the issues so 
 - starship
 - cava
 - alacritty
-- rofi-power-menu
+- rofi-power-menu/wlogout
 - playerctl
 - swaylock
+- swayidle
